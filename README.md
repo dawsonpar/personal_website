@@ -1,4 +1,4 @@
-# Hi! This website was originally designed by Tom is Loading from YouTube
+# Hi! This is my personal website and was originally designed by YouTuber Tom is Loading.
 
 As I was learning React and NextJS I came accross this website and wanted to learn how to build it.
 
