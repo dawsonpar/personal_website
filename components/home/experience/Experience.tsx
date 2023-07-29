@@ -16,10 +16,10 @@ const experience = [
   {
     title: "Advent Share Ministries",
     position: "Full Stack Developer",
-    time: "2023 - Present",
+    time: "June 2023 - Present",
     location: "Remote",
     description:
-      "I help redesign and build Adventshare.org. Created a more user friendly navigation decreasing the time to find project information and donation methods. Streamlined the addition and changing of content for editors using NextJS.",
-    tech: ["NextJS", "TypeScript", "Tailwind", "Git", "GitHub", "Prisma"],
+      "Built dynamic UI routes and components for reusability across the website's pages. Created and implemented SSG componenets that improved page rendering by 70%. Migrated the hosting to AWS to handle scalability and view analytics.",
+    tech: ["NextJS", "TypeScript", "Tailwind", "Git", "GitHub", "AWS Amplify"],
   },
 ];

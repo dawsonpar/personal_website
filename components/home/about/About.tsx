@@ -16,30 +16,29 @@ export const About = () => {
               Hey! I&apos;m Dawson, if you haven&apos;t already gathered that by
               now. I started my coding journey as a computer science student at
               Andrews University. I specialize in full stack development,
-              primarily NextJS and MongoDB, but love building with whatever
-              tools are right for the job.
+              primarily React, Next.JS, and MongoDB, but love building with
+              whatever tools are right for the job.
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
               I currently work for Advent Share Ministries as we're working to
-              redesign their website. Additionally, I&apos;ve recently become
-              interested in machine learning and am learning how to use tools
-              like PyTorch and TensorFlow.
+              redesign their website. We're testing ways for users to donate to
+              the organization through the website and updating current pages
+              for a smoother experience.
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
               Outside of work, I love to play volleyball and improve my
-              videography. Any given Sunday you can catch me playing indoors or
-              on the beach 🏐 Or you might see me filming something with my
-              friends.
+              videography. These are my favorite passions that allow me to stay
+              healthy and have a creative outlet 🎥
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
               I&apos;m actively looking for new positions where I can
-              collaborate through code and learn what I don't know. If you think
+              collaborate through code and learn new things. If you think
               you&apos;ve got an opening where I might fit, let&apos;s connect
               🔗
             </p>

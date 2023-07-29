@@ -18,133 +18,92 @@ export const Projects = () => {
 
 const projects = [
   {
-    title: "Paint.app",
-    imgSrc: "project-imgs/example-project.jpg",
-    code: "https://www.github.com",
-    projectLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    tech: ["Flutter", "MUI", "Python", "FastAPI"],
+    title: "Twither",
+    imgSrc: "project-imgs/twither-img-lg.png",
+    code: "https://github.com/dawsonpar/twither",
+    projectLink: "https://twither.vercel.app/",
+    tech: ["NextJS", "Mongo", "Prisma", "NextAuth", "Vercel"],
     description:
-      "A real-time coaching app for students learning to paint. This app is my baby, designed and built on my own.",
+      "A responsive, fullstack Twitter clone that allows users to have the same experience sharing their thoughts as tweets.",
     modalContent: (
       <>
         <p>
-          Pain.app is a real-time coaching app for students learning to paint.
-          This app is my baby, designed and built on my own.
+          Twither is a fullstack application that supports a majority of the
+          same features as Twitter.
         </p>
         <p>
-          The tech stack is based on top of Flutter for the mobile app,
-          connected to a Python & FastAPI backend, with data stored in Postgres,
-          deployed on Heroku.
+          Using NextAuth, users can register for an account and login to use the
+          app. Users can tweet, follow other users, like, comment, and upload
+          images for their profiles.
         </p>
         <p>
-          Because this isn&apos;t real, here&apos;s some gibberish to fill space{" "}
-          {":)"}
+          The layout of the app is responsive and shows the appropriate
+          components depending on whether the user's device is on mobile or
+          desktop.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
-          quia officia odio nulla consectetur aperiam ad tempora magni magnam
-          nesciunt.
+          All data is updated in real time using Prisma and MongoDB and
+          sensitive information such as passwords are hashed.
         </p>
         <p>
-          Fuga id sapiente facere ipsa eius exercitationem officiis deleniti,
-          rerum dolorum. Deserunt soluta modi culpa animi.
+          Finally, the app is deployed on Vercel and any updated are done by
+          pushing to the Github repository associated with the deployment.
         </p>
       </>
     ),
   },
   {
-    title: "The Canvas Club",
-    imgSrc: "project-imgs/example-project.jpg",
-    code: "https://www.github.com",
-    projectLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    tech: ["Node", "Express", "Postgres", "Kafka", "Redis"],
+    title: "Digital Scavenger Hunt",
+    imgSrc: "project-imgs/scavenger-img.png",
+    code: "https://github.com/dawsonpar/dsh-vite-amplify",
+    projectLink: "https://dsh-vite-amplify.vercel.app/",
+    tech: ["React", "Vite", "MUI", "AWS Amplify"],
     description:
-      "A social community for painters to connect with others in their community. I handle everything backend (50K monthly active users).",
+      "An app to host digital scavenger hunts. Originally designed to be used at Andrews University for social events.",
     modalContent: (
       <>
         <p>
-          The Canvas Club is a social community for painters to connect with
-          others in their community.
+          As the President of the Andrews Filipino International Association I
+          wanted a new way to engage with members. So I built this digital
+          scavenger hunt app as a fun way for them to win prizes and attend
+          events.
         </p>
         <p>
-          I work primarily on the backend, a collection of Node & Express
-          microservices. Data is stored primarily in Postgres & cached in Redis.
+          The idea is that, in conjunction with social events, users can enter
+          secret keys and unlock special pages that contain valuable
+          information.
         </p>
         <p>
-          The team in total consists of 5 developers. This is a passion project
-          for all of us.
+          The tech stack is based on top of React using Vite and hosted on AWS
+          Amplify so users have a smooth experience. However, a backup of this
+          project is on Vercel because support on AWS continues to change.
         </p>
         <p>
-          Because this isn&apos;t real, here&apos;s some gibberish to fill space{" "}
-          {":)"}
+          The app is fully responsive and uses several fundamentals of React
+          such as useState, Props, and Component rendering.
         </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
-          quia officia odio nulla consectetur aperiam ad tempora magni magnam
-          nesciunt.
-        </p>
-        <p>
-          Fuga id sapiente facere ipsa eius exercitationem officiis deleniti,
-          rerum dolorum. Deserunt soluta modi culpa animi.
-        </p>
+        <p></p>
       </>
     ),
   },
   {
-    title: "BrushWire",
-    imgSrc: "project-imgs/example-project.jpg",
+    title: "Project Coming Soon",
+    imgSrc: "project-imgs/project-coming-soon.png",
     code: "https://www.github.com",
-    projectLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    tech: ["NextJS", "Java", "Spring", "AWS Aurora"],
-    description:
-      "Think Zapier but for paint. Built with a team of four college friends and scaled to > 1 billion requests per day. This was a fun one.",
+    projectLink:
+      "https://www.coursera.org/specializations/machine-learning-introduction",
+    tech: ["Python", "PyTorch", "Tensor Flow"],
+    description: "Working on a project that involves machine learning..",
     modalContent: (
       <>
         <p>
-          Brush wire is essentially Zapier but for paint. Built with a team of
-          four college friends and scaled to {">"} 1 billion requests per day.
-          This was a fun one.
+          As artificial intelligence becomes more popular I want to learn the
+          mysteries behind the black box of machine learning.
         </p>
         <p>
-          Since &quot;Zapier for paint&quot; doesn&apos;t mean anything, be
-          creative {":)"}
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
-          quia officia odio nulla consectetur aperiam ad tempora magni magnam
-          nesciunt.
-        </p>
-        <p>
-          Fuga id sapiente facere ipsa eius exercitationem officiis deleniti,
-          rerum dolorum. Deserunt soluta modi culpa animi.
-        </p>
-      </>
-    ),
-  },
-  {
-    title: "Paint Reference 4",
-    imgSrc: "project-imgs/example-project.jpg",
-    code: "https://www.github.com",
-    projectLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    tech: ["Python", "FastAPI", "SQLAlchemy"],
-    description:
-      "I couldn't think of another paint reference app, so here we are. I think you get the idea, right? Use your imagination 🌈",
-    modalContent: (
-      <>
-        <p>Alright, you got me. I&apos;m all out of paint references.</p>
-        <p>
-          Point is, use this space to explain a bit further WHAT this project
-          is, as well as what YOU contributed to it.
-        </p>
-        <p>You get the idea. Now more lorem {":)"}</p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
-          quia officia odio nulla consectetur aperiam ad tempora magni magnam
-          nesciunt.
-        </p>
-        <p>
-          Fuga id sapiente facere ipsa eius exercitationem officiis deleniti,
-          rerum dolorum. Deserunt soluta modi culpa animi.
+          To learn more I'm taking this course on Coursera to learn more about
+          how machine learning works. I will built a project that showcases what
+          I've learned and hopefully I can share it here soon.
         </p>
       </>
     ),

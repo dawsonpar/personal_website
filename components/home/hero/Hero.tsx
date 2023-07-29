@@ -14,15 +14,15 @@ export const Hero = () => {
         </Reveal>
         <Reveal>
           <h2 className={styles.subTitle}>
-            I&apos;m a <span>Full Stack Developer</span>
+            I&apos;m a <span>Software Engineer</span>
           </h2>
         </Reveal>
         <Reveal>
           <p className={styles.aboutCopy}>
-            I&apos;m a computer science student at Andrews University who loves
-            learning new code and bringing ideas into reality. Currently
+            I&apos;m also a computer science student at Andrews University who
+            loves learning new code and bringing ideas into reality. Currently
             I&apos;m building web apps, tinkering with machine learning, and
-            practicing for interview season.
+            reviewing for interviews.
           </p>
         </Reveal>
         <Reveal>
