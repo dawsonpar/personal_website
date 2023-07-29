@@ -1,38 +1,16 @@
-# Hi! This is my personal website and was originally designed by YouTuber Tom is Loading.
+# Hi! This is my personal website.
 
-As I was learning React and NextJS I came accross this website and wanted to learn how to build it.
+As I was learning React and NextJS I came across this website and wanted to learn how to build it.
 
-## Let's get things running
+## Quick Rundown
 
 This website is built on top of [NextJS](https://nextjs.org/), a full stack development framework built on top of React.
 
-At the root of your project, you'll see a `package.json` file defining our dependencies.
-
-Most of this is boilerplate, but I will call out the following three dependencies:
+The website has the following three dependencies:
 
 - `animejs` -> A javascript animation library, used for the grid animation inside of DotGrid.tsx
 - `framer-motion` -> A react based animation library, used in a hand full of places (anywhere you see `<motion.el />` style components)
 - `sass` -> All styling uses plain CSS and sass modules for this project
-
-Now that's out of the way, you can get your project running by first installing dependencies.
-
-From your terminal, run:
-
-```
-npm install
-# or
-yarn install
-```
-
-This will take a minute or two, but once that's done, you should be able to run the following command:
-
-```
-npm run dev
-# or
-yarn dev
-```
-
-This will start your project on `localhost:3000`
 
 ## The file structure
 
@@ -72,10 +50,3 @@ Global styling (colors mainly) are defined using CSS variables in the `styles/gl
 ```
 
 The first six variables are the colors for the app. The last six are font sizes. Play around with these a bit to start making it your own.
-
-## More info
-
-Credit to Tom for designing this website and helping me learn more about NextJS.
-Here is the link to the video where Tom builds the website.
-
-[WATCH THE TUTORIAL VIDEO](https://youtu.be/hu-XLI3bFX8)
