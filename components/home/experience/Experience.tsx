@@ -18,7 +18,7 @@ const experience = [
     position: "Full Stack Developer",
     time: "June 2023 - Present",
     location: "Remote, Texas",
-    description: `Built dynamic UI routes and components for reusability across the website's pages. Created and implemented SSG componenets that improved page rendering. Migrated the hosting to AWS to handle scalability and view analytics. Current DNS doesn't point to AWS hosting so here's the temporary link https://master.d3tgctb81d9jd4.amplifyapp.com`,
+    description: `Built dynamic UI routes and components for reusability across the website's pages. Created and implemented SSG componenets that improved page rendering. Current DNS doesn't point to AWS hosting so here's the temporary link https://master.d3tgctb81d9jd4.amplifyapp.com`,
     tech: ["NextJS", "TypeScript", "Tailwind", "Git", "GitHub", "AWS Amplify"],
   },
 ];
