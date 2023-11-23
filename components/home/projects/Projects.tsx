@@ -53,6 +53,34 @@ const projects = [
     ),
   },
   {
+    title: "Rate My Dorm Meal",
+    imgSrc: "project-imgs/rmdm-project.png",
+    code: "https://github.com/dawsonpar/RateMyDormMeal",
+    projectLink: "https://main--ratemydormmeal.netlify.app/",
+    tech: ["Supabase", "React", "Vite", "Netlify"],
+    description:
+      "If Yelp and RateMyProfessor had a baby. Share your delicious dorm meals with the rest of the world.",
+    modalContent: (
+      <>
+        <p>
+          For the 2023 fall semester I joined the Intermediate Web Development
+          class at CodePath and this was my final project, RateMyDormMeal.
+        </p>
+        <p>
+          Users can make an account and create posts about their most recent
+          meals. Posts are shared across the whole website and users can like
+          and create comments under each post.
+        </p>
+        <p>
+          The web app is responsive and rich with features such as user
+          authentication and image uploading using Supabase's database and
+          storage.
+        </p>
+        <p></p>
+      </>
+    ),
+  },
+  {
     title: "Digital Scavenger Hunt",
     imgSrc: "project-imgs/scavenger-img.png",
     code: "https://github.com/dawsonpar/dsh-vite-amplify",
