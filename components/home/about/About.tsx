@@ -16,22 +16,22 @@ export const About = () => {
               Hey! I&apos;m Dawson, if you haven&apos;t already gathered that by
               now. I started my coding journey as a computer science student at
               Andrews University. I specialize in full stack development,
-              primarily React, Next.JS, and MongoDB, but love building with
-              whatever tools are right for the job.
+              primarily React, Next.JS, and AWS, but love building with whatever
+              tools are right for the job.
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              I currently work for Advent Share Ministries as we're working to
-              redesign their website. We're testing ways for users to donate to
-              the organization through the website and updating current pages
-              for a smoother experience.
+              I currently work as a database and asset manager for Andrews
+              University developing solutions for our communications department.
+              Some of of the projects we're working on include an automatic CMS
+              pipeline and a custom gear checkout application.
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              Outside of work, I love to play volleyball and improve my
-              videography. These are my favorite passions that allow me to stay
+              Outside of work, I love to play volleyball and film videos with my
+              friends. These are my favorite passions that allow me to stay
               healthy and have a creative outlet 🎥
             </p>
           </Reveal>
