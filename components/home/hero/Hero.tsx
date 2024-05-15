@@ -21,8 +21,8 @@ export const Hero = () => {
           <p className={styles.aboutCopy}>
             I&apos;m also a computer science student at Andrews University who
             loves learning new code and bringing ideas into reality. Currently
-            I&apos;m building web apps, experimenting with Docker, and testing
-            FastAPI.
+            I&apos;m expanding my backend skills with Node.js and Github
+            Actions.
           </p>
         </Reveal>
         <Reveal>

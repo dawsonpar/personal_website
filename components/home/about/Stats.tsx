@@ -12,22 +12,15 @@ export const Stats = () => {
             <span>Use at work</span>
           </h4>
           <div className={styles.statGrid}>
-            <span className="chip">JavaScript</span>
             <span className="chip">TypeScript</span>
             <span className="chip">React</span>
             <span className="chip">NextJS</span>
             <span className="chip">NodeJS</span>
             <span className="chip">SCSS</span>
             <span className="chip">TailwindCSS</span>
-            <span className="chip">HTML</span>
-            <span className="chip">CSS</span>
-            <span className="chip">Python</span>
-            <span className="chip">SQL</span>
-            <span className="chip">MongoDB</span>
-            <span className="chip">AWS Amplify</span>
-            <span className="chip">AWS Route 53</span>
             <span className="chip">Git</span>
-            <span className="chip">GitHub</span>
+            <span className="chip">GitHub Actions</span>
+            <span className="chip">Teraform</span>
           </div>
         </div>
       </Reveal>
@@ -38,15 +31,16 @@ export const Stats = () => {
             <span>Use for fun</span>
           </h4>
           <div className={styles.statGrid}>
+            <span className="chip">TypeScript</span>
+            <span className="chip">React</span>
+            <span className="chip">NextJS</span>
+            <span className="chip">NodeJS</span>
             <span className="chip">Vercel</span>
             <span className="chip">Prisma</span>
             <span className="chip">mySQL</span>
-            <span className="chip">Raspberry Pi</span>
             <span className="chip">Bash</span>
-            <span className="chip">PyTorch</span>
+            <span className="chip">Python</span>
             <span className="chip">TensorFlow</span>
-            <span className="chip">Unreal Engine</span>
-            <span className="chip">Java</span>
           </div>
         </div>
       </Reveal>

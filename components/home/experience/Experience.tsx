@@ -14,12 +14,20 @@ export const Experience = () => {
 
 const experience = [
   {
+    title: "Warner Bros. Discovery",
+    position: "Software Engineer Intern",
+    time: "June 2024 - August 2024",
+    location: "Bellevue, Washington",
+    description: "More information coming soon.",
+    tech: ["Typescript", "React", "NodeJS", "Github Actions"],
+  },
+  {
     title: "Andrews University",
     position: "Data Asset Manager",
-    time: "September 2023 - Present",
+    time: "September 2023 - May 2024",
     location: "Berrien Springs, Michigan",
     description:
-      "Streamlining the conversion of raw photos to DNG from the communication department's Google drive. Currently working on automating the pushing of finished assets into our database and content management system.",
+      "Automated the conversion of raw photos to DNG from the communication department's Google drive. Assisted in development of an internal tool used for managing camera equipment and returning metrics on when taken or returned.",
     tech: ["Python", "Bash", "Google APIs", "Adobe DNG"],
   },
   {
@@ -27,7 +35,7 @@ const experience = [
     position: "Full Stack Developer",
     time: "June 2023 - September 2023",
     location: "Edinburg, Texas",
-    description: `Built dynamic UI routes and components for reusability across the website's pages. Created and implemented SSG componenets that improved page rendering. Current DNS doesn't point to AWS hosting so here's the temporary link https://master.d3tgctb81d9jd4.amplifyapp.com`,
+    description: `Built dynamic UI routes and components for reusability across the website's pages. Created and implemented SSG componenets that improved page rendering.`,
     tech: ["NextJS", "TypeScript", "Tailwind", "Git", "GitHub", "AWS Amplify"],
   },
 ];

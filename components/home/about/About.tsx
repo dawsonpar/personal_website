@@ -22,10 +22,10 @@ export const About = () => {
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              I currently work as a database and asset manager for Andrews
-              University developing solutions for our communications department.
-              Some of of the projects we're working on include an automatic CMS
-              pipeline and a custom gear checkout application.
+              I currently work as a software engineer intern at Warner Bros.
+              Discovery. I&apos;m building an internal tool that is used to
+              enable easier communication between different teams inside the
+              organization.
             </p>
           </Reveal>
           <Reveal>
@@ -37,10 +37,10 @@ export const About = () => {
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              I&apos;m actively looking for new positions where I can
-              collaborate through code and learn new things. If you think
-              you&apos;ve got an opening where I might fit, let&apos;s connect
-              🔗
+              Currently I&apos;m focused on making the most out of my internship
+              and learning as much as I can from everyone around me. If
+              you&apos;d like to chat, exchange stories, or make a new friend,
+              let&apos;s connect 🔗
             </p>
           </Reveal>
           <Reveal>
